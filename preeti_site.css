@@ -1,0 +1,154 @@
+	*{
+		margin:0;
+		padding:0;
+		width:100%;
+	}
+	body {
+	 font-family: 'Raleway', sans-serif;
+
+	 background-color: rgb(106, 88, 106);
+	  padding: 0;
+	  margin: 0;
+	  width:100%;
+	  height:100%;
+	  overflow-x:hidden;
+	  color:white;
+	  z-index:2;
+	  position: absolute;
+	 background-attachment:fixed;
+	}
+	h1{
+		font-weight: 200;
+		padding:0;
+		margin:0;
+		font-size:5em;
+	}
+	h2{
+		font-weight:200;
+	}
+	h3{
+		margin-bottom:5px;
+		margin-top:0;
+	}
+	a{
+		color: rgb(190, 238, 241);
+	
+		font-weight: 500;
+}
+	a:hover{
+		color:grey;
+	}
+	span{
+		color: rgb(255, 255, 255);
+	
+		font-weight: 500;
+}
+	.header{
+		width:100%;
+		min-height: 175px;
+		text-align:center;
+		padding-top: 50px;
+
+	
+		padding-bottom: 50px;
+}
+	.text-wrap{
+		text-align:center;
+	}
+
+	.content
+	{
+		border: 10px rgb(106, 88, 106) solid;
+		display:inline-block;
+		transition: background-color .5s;
+	}
+	.content:hover{
+		transition: background-color .5s;
+	}
+	.about{
+		background-color: rgb(255, 171, 171);
+		min-height: 260px;
+	}
+	.about:hover{
+		background-color: rgb(250, 138, 138);
+	}
+	.contact:hover
+	{
+		background-color: rgb(176, 123, 176);
+		
+	}
+	.projects{
+		background-color: rgb(129, 178, 201);
+		min-height:315px;
+	}
+	.projects:hover{
+		background-color: rgb(107, 160, 185);
+	}
+	.skills{
+		background-color: rgb(129, 201, 174);
+		min-height:315px;
+	}
+	.skills:hover{
+		background-color: rgb(98, 174, 146);
+	}
+	.contact{
+		  background-color: rgb(179, 157, 179);
+		min-height: 70px;
+		font-size: .9em;
+		text-align: center;
+		padding-top: 5px;
+	}
+	.fa{
+		display:inline;
+	}
+
+	.row{
+		margin:0;
+		padding-left:30px;
+		padding-right:30px;
+	}
+@media(max-width: 1300px) {
+	.about{
+		min-height: 350px;
+	}
+	.contact{
+		font-size: .63em;
+		padding-top: 0px;
+		min-height:0px;
+}
+}
+@media(max-width: 1010px) {
+	.about{
+		min-height: 390px;
+}
+.contact{
+	min-height:0px;
+	font-size:.7em;
+}
+@media(max-width: 999px) {
+	.about{
+		min-height:250px;
+}
+.contact{
+	min-height:0px;
+	padding-top: 0px;
+	font-size:.6em;
+}
+}
+@media(max-width: 769px) {
+
+	.content{
+		min-height:0;
+		font-weight:200;
+		border: 5px rgb(106, 88, 106) solid;
+		font-size:18px;
+	}
+	h2{
+		font-size:40px;
+	}
+	.contact{
+		font-size: .6em;
+		padding-top: 0px;
+}
+
+}
