@@ -67,7 +67,7 @@
 	}
 	.about{
 		background-color: rgb(255, 171, 171);
-		min-height: 260px;
+		min-height: 285px;
 	}
 	.about:hover{
 		background-color: rgb(250, 138, 138);
