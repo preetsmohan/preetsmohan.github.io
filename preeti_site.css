@@ -3,6 +3,16 @@
 		padding:0;
 		width:100%;
 	}
+	.header-img{
+		width:200px;
+		border-radius:50%;	
+		    border: 2px solid #B39DB3;
+
+	}
+	.face{
+		text-align:center;
+		margin-bottom:30px;
+	}
 	body {
 	 font-family: 'Raleway', sans-serif;
 
@@ -45,12 +55,10 @@
 }
 	.header{
 		width:100%;
-		min-height: 175px;
+		min-height: 135px;
 		text-align:center;
-		padding-top: 50px;
-
-	
-		padding-bottom: 50px;
+		padding-top: 30px;
+		padding-bottom: 0px;
 }
 	.text-wrap{
 		text-align:center;
