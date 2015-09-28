@@ -87,14 +87,14 @@
 	}
 	.projects{
 		background-color: rgb(129, 178, 201);
-		min-height:315px;
+		min-height:450px;
 	}
 	.projects:hover{
 		background-color: rgb(107, 160, 185);
 	}
 	.skills{
 		background-color: rgb(129, 201, 174);
-		min-height:315px;
+		min-height:450px;
 	}
 	.skills:hover{
 		background-color: rgb(98, 174, 146);
