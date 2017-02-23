@@ -74,6 +74,7 @@ h4{
 	top:0;
 	position: fixed;
 	animation: fader 20s linear 0s infinite normal;
+	display: inline-block;
 }
 
 @-webkit-keyframes fader {
@@ -95,7 +96,7 @@ h4{
 }
 
 .description.current{
-	display:block;
+	display:inline-block;
 	font-family: monospace;
 	color:white;
 	width:60%;
@@ -128,4 +129,36 @@ h4{
 .fa{
 	display:inline; 
 	text-decoration: none;
+}
+
+@media (max-width:900px) {
+  body{
+  	overflow:scroll;
+  }
+  .header{
+  	font-size: 30px;
+  	position: static;
+  	margin-top:-50px;
+  }
+  .description.current{
+  	font-size: 15px;
+  	width:100%;
+  	padding:0;
+  }
+}
+
+@media (min-width:768px) {
+	body{
+		overflow:hidden;
+	}
+  .header{
+  	font-size: 40px;
+  	position: static;
+  	margin-top:-50px;
+  }
+  .description.current{
+  	font-size: 15px;
+  	width:80%;
+  	padding-left:10%;
+  }
 }
