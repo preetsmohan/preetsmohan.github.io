@@ -1,3 +1,4 @@
+@media (min-width:900px){
 *{
 	margin:0;
 	padding:0;
@@ -130,6 +131,23 @@ h4{
 	display:inline; 
 	text-decoration: none;
 }
+}
+
+@media (max-width:768px) {
+	body{
+		overflow:hidden;
+	}
+  .header{
+  	font-size: 40px;
+  	position: static;
+  	margin-top:-50px;
+  }
+  .description.current{
+  	font-size: 15px;
+  	width:80%;
+  	padding-left:10%;
+  }
+}
 
 @media (max-width:900px) {
   body{
@@ -144,21 +162,5 @@ h4{
   	font-size: 15px;
   	width:100%;
   	padding:0;
-  }
-}
-
-@media (min-width:768px) {
-	body{
-		overflow:hidden;
-	}
-  .header{
-  	font-size: 40px;
-  	position: static;
-  	margin-top:-50px;
-  }
-  .description.current{
-  	font-size: 15px;
-  	width:80%;
-  	padding-left:10%;
   }
 }
