@@ -2,6 +2,7 @@
 	margin:0;
 	padding:0;
 	width:100%;
+	--animation-delay:1s;
 }
 
 body{
@@ -13,6 +14,33 @@ body{
 	overflow:hidden;
 	padding-top:15%;
 	z-index: 1
+}
+
+a{
+	color:white;
+	text-decoration:underline;
+	animation: fader 10s linear 0s infinite normal;
+	display: inline;
+}
+
+a:hover{
+	color:white;
+	text-decoration:none;
+}
+
+a.fa_link{
+	text-decoration:none;
+}
+
+h3{
+	font-size:25px;
+	text-decoration: underline;
+	font-weight:bold;
+}
+
+h4{
+	text-decoration:underline;
+	display:inline;
 }
 
 .star{
@@ -42,10 +70,10 @@ body{
 	color:#fffdc3;
 	text-align:center;
 	width:100%;
-	font-size:80px;
+	font-size:90px;
 	top:0;
+	position: fixed;
 	animation: fader 20s linear 0s infinite normal;
-
 }
 
 @-webkit-keyframes fader {
@@ -57,10 +85,47 @@ body{
 }
 
 .description{
+	display:none;
 	font-family: monospace;
 	color:white;
 	width:60%;
 	padding-left:20%;
-	font-size:30px;
+	font-size:20px;
 	text-align: center
+}
+
+.description.current{
+	display:block;
+	font-family: monospace;
+	color:white;
+	width:60%;
+	padding-left:20%;
+	font-size:20px;
+	text-align: center
+}
+
+
+.description#song-shelf{
+	text-align: left;
+}
+
+.links{
+	padding-top: 40px;
+	font-family:monospace;
+	color:white;
+	width:60%;
+	padding-left:20%;
+	font-size:20px;
+	text-align:center;
+}
+
+.nav.current{
+	text-decoration: underline;
+	color:#a7bff4;
+	animation: none;
+}
+
+.fa{
+	display:inline; 
+	text-decoration: none;
 }

@@ -7,7 +7,7 @@ loop={
  start:function(){
   for (var i=0; i <= limit; i++) {
    var star=this.newStar();
-   star.style.top=this.rand()*110+"%";
+   star.style.top=this.rand()*100+"%";
    star.style.left=this.rand()*100+"%";
    star.style.webkitAnimationDelay=(this.rand()*3)+"s";
    star.style.mozAnimationDelay=this.rand()+"s";
