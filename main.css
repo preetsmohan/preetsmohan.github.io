@@ -1,4 +1,3 @@
-@media (min-width:900px){
 *{
 	margin:0;
 	padding:0;
@@ -131,7 +130,7 @@ h4{
 	display:inline; 
 	text-decoration: none;
 }
-}
+
 
 @media (max-width:768px) {
 	body{
