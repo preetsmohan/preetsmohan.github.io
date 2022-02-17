@@ -11,73 +11,84 @@
    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
   </head>
 
+
   <body>
-    <div class="star"></div>
-    <div class="header">Preeti Mohan</div>
-    <div class="description current" id="about">
-      <p>
-        Hey there. I'm a computer scientist, cognitive scientist, roboethicist, heavy metal enthusiast, and aspiring science fiction writer. I'm graduating from the University of Michigan in April 2017, and I'm moving to Seattle to work as a Software Engineer at Microsoft on the Cortana Proactive Experiences team.
-      </p> 
-      <br>
-      <p>
-        I try to stay involved and engaged in many things. My primary interests are Artificial Intelligence, Data Analytics, Natural Language Processing, Computational Creativity, User Experience/Interfaces, Generative Art, Storytelling, Ethics, Linguistics, Philosophy of Mind, Cognitive Psychology, Public Policy, Civic Technology, Education Technology, and Technology for Social Good. 
-      </p>
-    </div>
-    <div class="description" id="things">
-    <ul>
-    <li><p>I'm a member of the <a target="_blank" href="https://standards.ieee.org/develop/indconn/ec/autonomous_systems.html">IEEE Global Initiative for Ethical Considerations in Artificial Intelligence</a> where I contribute to the next version of the <a href="http://standards.ieee.org/develop/indconn/ec/ead_v1.pdf">Ethically Aligned Design</a> document as a member of the Mixed Reality and Affective Computing groups,
-      the <a target="_blank" href="http://standards.ieee.org/develop/project/7000.html">IEEE P7000 Working Group: Model Process for Addressing Ethical Concerns During System Design</a>, and the <a target="_blank" href="http://standards.ieee.org/develop/project/7001.html">IEEE P7001 Working Group: Transparency of Autonomous Systems.</a> I love technology policy, and I want to have a voice in making sure Artificial Intelligence is ethical, human, and transparent. 
-      </p></li>
-      <br>
-      <li><p>
-      Currently at UofM, I am a computer consultant at the School of Dentistry, a team captain on the Do Random Acts of Kindness Club, and a clarinetist in the Michigan Pops Orchestra. 
-      </p></li>
-    </ul>
-    </div>
-    <div class="description" id="portfolio">
-      <p><a href="http://www.wobetto.com" target="_blank"> Wobetto:</a> A simple social platform that helps you discover opportunities to collaborate with students nearby. This project uses a Parse backend with an HTML5/CSS3/JavaScript front-end. I did the entirety of the landing
-      site from scratch, and the majority of the UI for the main app. This startup failed, but we learned a lot. We were selected as members of the Ann Arbor SPARK Startup Bootcamp, Class of Fall 2015.<em>(Co-Founder, CMO, Lead UI Dev/Designer)</em></p>
-      </br>
-      <p><a href="http://preetsmohan.github.io/SpaceBox/spacebox.html" target="_blank">SpaceBox:</a> A space-themed pure CSS3 animation. Some JS was used to procedurally generate stars and blinking intervals in the background. The shadows on the moon as it orbits proved to be challenging- this was a fun project nonetheless! I reused the blinking stars on this site.</p>
+  <div class = "content">
+   <div class="header">Preeti Mohan</div>
+   <div class="links"> 
+    <div class = "nav current" id="home" >
+      <a onclick="desc_switch('home')">Home</a> 
+    </div><!--
+  --><div class = "nav" id="music" >
+      <a onclick="desc_switch('music')">Music</a> 
+    </div><!--
+  --><div class="nav" id="resume" >
+      <a onclick="desc_switch('resume')">Resume</a> 
+    </div><!--
+  --><div class = "nav" id="contact" >
+      <a onclick="desc_switch('contact')">Social Media + Contact</a>
     </div>
     </div>
-    <div class="description" id="song-shelf">
-      <p>
-      Work In Progress. Here I will list off some of my favorite album recommendations, and talk about what I'm currently listening to. 
-      </p>
-      <br>
-      <p>
-        <h3>Currently listening to:</h3>
+
+      <div class="description current" id="home_desc" name="home">
+        <img src="profile_pic.jpg" class="profile_pic"/>
         <br>
-          <p><h4>Artist:</h4> Seventh Wonder</p>
-          <p><h4>Album:</h4> Waiting in the Wings</p>
-          <br>
-          <p>A great 2006 prog-power offering from an underrated and extremely versatile band that combines musical sounds and themes seamlessly. It doesn't hurt that I am a hopeless Tommy Karevik fangirl, but even disregarding that, the technical talent and skill of all the musicians is easily evident on every emotional and engaging track.</p>
-          <br>
-          <p><h4>Favorite Song:</h4> <a target="_blank" href="https://www.youtube.com/watch?v=xFxpv2JMt6I">Not an Angel</a></p>
+        <br>
+        <br>
+      <p>
+        Hey there! I'm Preeti, and I'm an Software Engineer at Google Research, working on the Speech Intelligence team in the Cerebra org. I've previously worked as a Software Engineer at Microsoft on the Cortana team and Wellsaid Labs as a Deep Learning Engineer. I got my MS in Computational Linguistics from the University of Washington in 2020, and completed a Master's Thesis: "An Analysis of Gender Bias in K-12 Assigned Literature Through Comparison of Non-Contextual Word Embedding Models". I graduated from the University of Michigan in 2017 with a dual major in Computer Science and Cognitive Science. 
       </p> 
-    </div>
-    <div class="description" id="blog"><a target="_blank" href="https://medium.com/@preets">Here I blog about music and tech.</a></div>
-    <div class="description" id="contact">
-      <a class="fa_link" href="https://medium.com/@preets" target="_blank"><i class="fa fa-medium"></i> @preets</a>
       <br>
-      <br>
-      <a class="fa_link" href="mailto:preetmhn@umich.edu" target="_blank"><i class="fa fa-envelope-o"></i> preetmhn@umich.edu</a>
-      <br>
-      <br>
-      <a class="fa_link" href="http://github.com/preetsmohan" target="_blank"><i class="fa fa-github-alt"></i> preetsmohan</a>
-      <br>
-      <br>
-      <a class="fa_link" href="http://github.com/preetsmohan" target="_blank"><i class="fa fa-linkedin-square"></i> preetimohan</a>
-    </div>
-    <div class="links"> 
-      <a class="nav current" id="about" onclick="desc_switch(this)" href="#">About</a> 
-      <a class="nav" id="things" onclick="desc_switch(this)" href="#">Things I Do</a> 
-      <a class="nav" id="portfolio" onclick="desc_switch(this)" href="#">Portfolio</a> 
-      <a class="nav" id="song-shelf" onclick="desc_switch(this)" href="#">Song-shelf</a> 
-      <a class="nav" id="blog" onclick="desc_switch(this)" href="#">Blog</a> 
-      <a class="nav" id="contact" onclick="desc_switch(this)" href="#">Contact</a>
+      <p>
+        Outside of work, I make music, work on mechanical keyboards, write fiction, run TTRPGS, and play video games. You can find out more about me using the links above. 
+      </p>
+      </div>
+
+       <div class="description" id="music_desc" name="music">
+       <p>
+       </p>
+       <h1>WHILE LOOP (EP - 2020)</h1>  
+       <br>
+       <p>
+        <h2>BANDCAMP</h2>
+       <iframe style="border: 0; width: 400px; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=2195288678/size=large/bgcol=333333/linkcol=9a64ff/artwork=small/transparent=true/" seamless><a href="https://beatsbypreets.bandcamp.com/album/while-loop">While Loop by Preeti Mohan</a></iframe>
+       </p>
+       <br>
+       <p>
+        <h2>SPOTIFY</h2>
+        <iframe src="https://open.spotify.com/embed/album/6mlKPiI14kfBYQatmVXtWC?utm_source=generator&theme=0" width="400px" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+       </p>
+       <br>
+       <br>
+       </div>
+
+      <div class="description" id="resume_desc" name="resume">
+       <p>
+        <iframe src="preetimohan_resume_feb2022.pdf" width="100%" height="100%"></iframe>
+       <br>
+       <br>
+       </p>
+       </div>
+
+       <div class="description" id="contact_desc" name="contact">
+       <p>
+        <a class="socialLink" href=""> <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/310/e-mail_1f4e7.png" /> preeti.mohan.95-at-gmail-dot-com </a>
+        <br>
+        <a class="socialLink" href="https://www.twitter.com/tweetsbypreets"> <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/bird_1f426.png" /> Twitter </a>
+        <br>
+        <a class="socialLink" href="https://www.instagram.com/preets.mohan"> <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/310/guitar_1f3b8.png" />  Music/Personal Instagram </a>
+        <br>
+        <a class="socialLink" href="https://www.instagram.com/preets.eyes"> <img src="https://emoji.gg/assets/emoji/5860-sparkles-classic.png" /> Makeup Art Instagram </a>
+        <br>
+        <a class="socialLink" href="https://www.instagram.com/preets.makes"> <img src="https://emoji.gg/assets/emoji/9935-catkeyboard.gif" /> Makerspace Instagram </a>
+       <br>
+       </p>
+       </div>
     </div>
   </body>
-<script type="text/javascript" src="main.js"></script>
-<script type="text/javascript" src="stars.js"></script>
+
+  </html>
+  <script type="text/javascript" src="main.js"></script>
+
+
+  
