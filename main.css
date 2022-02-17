@@ -110,3 +110,77 @@ h1, h2{
   width:200px;
 }
 
+
+
+@media(max-width: 1300px) {
+
+	.content{
+	padding:0;
+	padding-top:0;
+}
+
+		.header{
+	font-family: 'Bungee Shade', display;
+	background-image: linear-gradient(90deg, rgba(30,81,94,1) 0%, rgba(60,29,89,1) 35%, rgba(93,23,86,1) 58%, rgba(78,68,22,1) 100%);
+	color:rgba(255,254,182,1);
+	text-align:left;
+	font-size:40px;
+	top:0;
+	display: inline-block;
+	height: 2em;
+	margin-left:15px;
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	}
+
+	.links{
+	font-family:monospace;
+	color:black;
+	width:80%;
+	font-size:15px;
+	padding-left:25px;
+	padding-right:25px;
+	background: rgba(0, 0, 0, 0.5);
+	margin-right:5%;
+	margin-left:5%;
+	display: flex;
+}
+
+.description{
+	display:none;
+	font-family: monospace;
+	color:white;
+	margin-left:5%;
+	font-size:15px;
+	text-align: left;
+	margin-right:5%;
+	padding:25px;
+}
+
+.description.current{
+	  text-align: center;
+	width:80%;
+	display:inline-block;
+	font-family: monospace;
+	font-size:15px;
+	background: rgb(30,81,94);
+	background: linear-gradient(90deg, rgba(30,81,94,1) 0%, rgba(60,29,89,1) 35%, rgba(93,23,86,1) 58%, rgba(78,68,22,1) 100%);
+}
+
+.socialLink{
+	font-size:20px;
+	text-decoration: none;
+	background-image:  linear-gradient(90deg, rgba(139,209,227,1) 0%, rgba(200,161,236,1) 35%, rgba(217,121,207,1) 58%, rgba(255,254,182,1) 100%);
+	color:rgba(255,254,182,1);
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+}
+
+
